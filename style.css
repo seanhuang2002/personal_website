@@ -3,7 +3,7 @@
 }
 
 .body {
-    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+    background: linear-gradient(0deg,rgb(132, 73, 127) 0%, rgb(104, 187, 228) 100.2% );
 }
 
 html, body {
@@ -14,6 +14,8 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    color:rgb(233, 235, 242);
+    font-size:18px;
 }
 
 
@@ -48,6 +50,7 @@ html, body {
     list-style: none;
     padding-left: 0px;
     font-size: 18px;
+    color:rgb(233, 235, 242);
 }
   
 .social-links li {
@@ -58,8 +61,14 @@ html, body {
 .social-links a {
     text-decoration: none;
     padding: 4px;
+    color:rgb(233, 235, 242);
 }
   
 .social-links a:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social-links .urmom {
+    font-family: 'Comic Sans MS';
+    color:rgb(149,143,191);
 }
